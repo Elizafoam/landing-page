@@ -99,18 +99,20 @@ ul {
     font-weight: bolder;
     font-size: 36px;
     color: #1F2937;
+    margin-bottom: 50px;
 }
 
 .boxes {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
+    margin-bottom: 55px;
 }
 
 .box{
-    width: 75px;
-    height: 75px;
+    width: 115px;
+    height: 115px;
     background-color: white;
     border: solid 4px #2f68c4;
     border-radius: 10px;
@@ -146,6 +148,48 @@ ul {
     text-align: end;
 }
 
-.footer {
+.action-container {
+    display: flex;
+    justify-content: center;
+    padding: 90px 100px;
+    background-color: white;
+}
 
+.action {
+    display: flex;
+    background-color: #3882f6;
+    border: solid #3882f6 7px;
+    border-radius: 7px;
+    padding: 50px 150px;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.call {
+    color: #F9FAF8;
+    font-size: 20px;
+    margin: 0;
+}
+
+.action-text .text {
+    margin: 0;
+}
+
+#bsign {
+    border: solid 3px white;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 12px;
+}
+
+.copyright {
+    color: #E5E7EB;
+    text-align: center;
 }
