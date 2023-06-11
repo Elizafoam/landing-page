@@ -130,6 +130,21 @@ ul {
     font-weight:lighter;
 }
 
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 95px 230px 55px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: lighter;   
+}
+
+.cite {
+    font-weight: bolder;
+    text-align: end;
+}
 
 .footer {
 
